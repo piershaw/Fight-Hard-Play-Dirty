@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Fight Hard Play Dirty</string>
+	
+    <string name="menu_start">Start</string>
+    <string name="menu_restart">Restart</string>
+    <string name="menu_stop">Stop</string>
+    <string name="menu_pause">Pause</string>
+    <string name="menu_resume">Resume</string>
+    <string name="menu_easy">Easy</string>
+    <string name="menu_medium">Medium</string>
+    <string name="menu_hard">Hard</string>
+    
+    <string name="mode_ready">Pixel Tactics\nPress Up To Play \n Q W to Turn \n Action for Gas</string>
+	<string name="mode_pause">Paused\nPress Up To Resume</string>
+	<string name="mode_lose">Game Over\nPress Up To Play</string>
+	<string name="mode_win_prefix">Success!\n</string> 
+	<string name="mode_win_suffix">in a row\nPress Up to Play</string> 
+	
+	<string name="message_stopped">Stopped</string>
+	<string name="message_off_pad">Crash</string> 
+	<string name="message_too_fast">Too Fast</string> 
+	<string name="message_bad_angle">Bad Angle</string> 
+	<string name="start_button">START!</string>
+	<string name="about_button">About</string>
+	
+	<string name="main_title">Fight Hard Play Dirty</string>
+	
+	<string name="dpad">Dpad</string>
+	<string name="autotarget">Auto Targeting</string>
+	<string name="touch">Touch Targeting</string>
+	
+	<string name="buttonStartGame">Start Game</string>
+	<string name="buttonControls">Game Settings</string>
+	<string name="buttonAboutUs">About Us</string>
+	<string name="buttonHelp">Help</string>
+	<string name="highScores">High Scores</string>
+	<string name="buttonMoreGames">More Games</string>
+	
+	
+	<string name="webname">www.PixelTactics.com</string>
+	<string name="copyright">COPYRIGHT by Pixel Tactics 2010</string>
+	<string name="scoretext"></string>
+	
+	<string name="ptad"></string>
+	<string name="ad"></string>
+	
+	
+
+  
+    
+<string name="about_title">About The Game</string>
+<string name="about_text">Pixel Tactics\n\n
+Pier Shaw Programmer/Graphics\n\n
+Alan Dillingham Graphics\n\n
+
+Fight Hard Play Dirty\n\n
+</string>
+<string name="about_text2">
+This is a Public Beta of A new game I work on at home after work its my hobby Pixel Tactics is a small startup Company with 2 people Pier Shaw a programmer/artist and another artist Alan Dillingham mainly to make Android Games.
+</string>
+
+<string name="helptext">
+Use your finger to move guided Rockets.
+Your AI buddy shoots an Mini Gun at Targets he selects.
+You can turn AI off and use touch targeting with the MENU button.
+Use your Phone to move the Chopter forward and backward.
+
+
+ 
+
+
+</string>
+</resources>

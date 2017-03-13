@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout android:id="@+id/setingT"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content" 
+ xmlns:android="http://schemas.android.com/apk/res/android">
+<TableRow android:id="@+id/setings" android:layout_width="wrap_content" android:layout_height="wrap_content">
+</TableRow>
+
+<TableRow android:id="@+id/dpadT" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+<RadioButton android:id="@+id/dpad" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:text="@string/dpad">
+</RadioButton>
+</TableRow>
+
+<TableRow android:id="@+id/touchT" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+<RadioButton android:id="@+id/touch" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:text="@string/touch">
+</RadioButton>
+</TableRow>
+
+<TableRow android:id="@+id/motionT" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</TableRow>
+
+</TableLayout>

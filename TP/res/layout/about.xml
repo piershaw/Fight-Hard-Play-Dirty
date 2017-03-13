@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<TableLayout android:id="@+id/TableLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+<TextView
+android:id="@+id/about_content"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:gravity="center_vertical|center_horizontal"
+android:text="@string/about_text" />
+
+<TextView
+android:id="@+id/about_stuff"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/about_text2" android:paddingLeft="20px" android:paddingRight="20px"/>
+
+
+
+
+</TableLayout>

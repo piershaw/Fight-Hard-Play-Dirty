@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res/com.TP"
+android:layout_height="fill_parent"
+android:layout_width="fill_parent"
+android:orientation="horizontal"
+android:background="@drawable/loadingpt">
+   
+<LinearLayout
+android:orientation="vertical"
+android:layout_height="wrap_content"
+android:layout_width="fill_parent" 
+android:layout_gravity="bottom">
+
+ <!-- Place an AdMob ad at the bottom of the screen. -->
+        <!-- It has white text on a black background. -->
+        <!-- The description of the surrounding context is 'Android game'. -->
+        <com.admob.android.ads.AdView  
+          android:id="@+id/ad" 
+          android:visibility="visible"
+          android:layout_width="fill_parent" 
+          android:layout_height="wrap_content"
+          android:layout_alignParentTop ="true"
+          app:backgroundColor="#000000"
+          app:primaryTextColor="#FFFFFF"
+          app:secondaryTextColor="#CCCCCC"
+          android:layout_gravity="top"
+          app:keywords="Android game"
+        />
+
+<ImageButton android:id="@+id/startgame01"
+android:src="@drawable/startptoff"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:background="#00000000"
+android:layout_marginTop="10dip"
+android:layout_marginBottom="10dip" 
+android:layout_marginLeft="35dip" android:paddingTop="269dip">
+</ImageButton>
+
+<TextView
+android:text="@string/webname"
+android:layout_height="wrap_content"
+android:layout_width="wrap_content"
+android:layout_gravity="center"
+android:layout_marginTop="5dip"
+android:textSize="12sp" 
+android:textColor="#000000"
+/>
+
+<TextView
+android:text="@string/copyright"
+android:layout_height="wrap_content"
+android:layout_width="wrap_content"
+android:layout_gravity="center"
+android:layout_marginTop="5dip"
+android:layout_marginBottom="10dip"
+android:textSize="10sp" 
+android:textColor="#000000"
+/>
+
+        
+        
+       
+
+    
+</LinearLayout>
+</LinearLayout>
